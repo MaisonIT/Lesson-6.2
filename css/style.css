@@ -1,0 +1,74 @@
+/* Обнуляющий стиль */
+@import url(null.css);
+
+/* &display=swap Для подключения шрифта */
+@font-face {
+	font-family: CircularStd;
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: CircularStd;
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+body {
+	font-family: "CircularStd", sans-serif;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.block-main {
+	width: 508px;
+}
+img {
+	width: 468px;
+	height: 675px;
+}
+
+.main-title {
+	text-align: center;
+	color: #313131;
+	font-size: 65px;
+	line-height: 82px;
+}
+.title-text {
+	text-align: center;
+	font-size: 20px;
+	line-height: 25px;
+	color: #5f5f5f;
+	margin: 0 0 224px 0;
+}
+.subtitle {
+	margin: 0 0 20px 0;
+	font-weight: 700;
+	font-size: 34px;
+	line-height: 130%;
+	color: #313131;
+	opacity: 0.88;
+}
+.subtext {
+	margin: 0 0 60px 0;
+	font-size: 18px;
+	line-height: 28px;
+	color: #5f5f5f;
+}
+
+.name {
+	margin: 0 0 5px 0;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 130%;
+	color: #313131;
+}
+.prof {
+	font-size: 18px;
+	line-height: 23px;
+	color: #b8b8b8;
+}
